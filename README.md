@@ -1,5 +1,5 @@
 This program takes in a list of portfolios (composed of stock symbol names and 
-their corresponding count) as input and prints out the list of
+their corresponding count) as input and prints out a list of
 portfolios, sorted in descending order of overall portfolio value.
 
 To run this program, type in the following at command prompt:
