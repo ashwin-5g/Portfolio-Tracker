@@ -77,14 +77,14 @@ def compute_overallvalue(port_dict):
     return port_dict
 
 
-def sort_descending_order(list_of_portfolios):
+def sort_descending_order(portfolio_dict):
     """
     This function takes in a dict, sorts it based on the indices and prints
     out the list of portfolios in the manner described in the problem
     specification.
     """
-    for k in sorted(list_of_portfolios, reverse=True):
-        for x, y in list_of_portfolios[k]:
+    for k in sorted(portfolio_dict, reverse=True):
+        for x, y in portfolio_dict[k]:
             print "{0} - {1} ".format(x.replace(' ', ''), y),
         print
 
